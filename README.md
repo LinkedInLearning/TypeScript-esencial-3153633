@@ -1,123 +1,37 @@
-# [DE-Kursname hier eintragen]
+# TypeScript Esencial
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs [COURSENAME]. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Este es el repositorio del curso de LinkedIn Learning TypeScript Esencial. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-[![COURSENAME](COURSEIMAGE)](LICOURSEURL)![Building a GraphQL Project with React.js][lil-thumbnail-url] 
+![TypeScript Esencial][lil-thumbnail-url] 
 
-[COURSEDESCRIPTION]
+TypeScript es uno de los lenguajes de programación que ha tomado mucha popularidad en los últimos años. Construido sobre JavaScript, agrega funcionalidades a este que nos permiten construir aplicaciones web más seguras y libres de errores y hace que nuestro código sea más claro de leer y entender. Es por esta razón que son cada vez más empresas y proyectos que se mueven a este lenguaje y una herramienta que todo desarrollador web debe conocer.
 
-## Anleitung
-
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
-
-## Branches
-
-Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `02_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. 
-Einige Branches haben einen Anfangsstatus (`b`) für "beginning" und einen Endstatus (`e`). Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der `master` Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
-
-Wenn Sie von einem Branch nach Änderungen zum nächsten Branch wechseln, erhalten Sie möglicherweise die folgende Meldung:
-
-```
-error: Your local changes to the following files would be overwritten by checkout:        [files]
-Please commit your changes or stash them before you switch branches.
-Aborting
-```
-
-Dieses Problem lösen Sie wie folgt:
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
-
-## Installation
-
-1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
-2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
-
-### Autor
-
-**[Name hier eintragen]**
-
-_[Berufsbezeichnung hier eintragen]_
-
-Sehen Sie sich andere Kurse des Autors auf <<<<Link aktualisieren>>>> [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors?u=104) an.
-
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
-	
-	
-# Nombre final del curso
-
-Este es el repositorio del curso de LinkedIn Learning [nombre del curso]. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
-
-![Nombre completo del curso][lil-thumbnail-url] 
-
-Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
-
-DESCRIPCIÓN DEL CURSO
+Este curso enseña los conceptos más generales del uso de TypeScript que van desde la definición de tipos de variables y objetos, la inferencia y la anotación literal de tipo hasta temas más complejos como lo son las uniones de tipos, los enums, las interfaces, tipos genéricos y demás. 
 
 ## Instrucciones
 
-Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. Puedes usar el menú emergente de la rama en GitHub para cambiar a una rama específica y echar un vistazo al curso en esa etapa, o puedes añadir `/tree/nombre_de_la_rama` a la URL para ir a la rama a la que quieres acceder.
+Este repositorio no tiene ramas por lo que al descargar el repositorio completo obtendrás los archivos en su versión final.
 
-## Ramas
+Cada carpeta en el directorio raíz corresponde a una unidad del curso y cada una tiene un nombre con un formato de `Unidad_#unidad`. Cada carpeta contiene subcarpetas las cuales contienen los ejemplos de cada lección. Las carpetas de las lecciones tienen un nombre con un formato de `Leccion_#leccion`. Por ejemplo, los archivos de la lección 3 de la unidad 2 se encuentran en el directorio: `Unidad_02/Leccion_03/index.ts`.
 
-Las ramas están estructuradas para corresponder a los vídeos del curso. La convención de nomenclatura es Capítulo#_Vídeo#. Por ejemplo, la rama denominada `02_03` corresponde al segundo capítulo y al tercer vídeo de ese capítulo. Algunas ramas tendrán un estado inicial y otro final. Están marcadas con las letras i («inicio») y f («fin»). La branch i tiene el mismo código que al principio del vídeo. La branch f tiene el mismo código que al final del vídeo. La rama master tiene el estado final del código que aparece en el curso.
+En el directorio `Unidad_01/Leccion_03_04_05` encontrarás un proyecto con su correspondiente package.json y demás archivos de configuración. Puedes copiar cada index.ts de cada lección a la carpeta `Unidad_01/Leccion_03_04_05/src` para ejecutar el código. 
+
+Puedes utilizar [TypeScript Playground][https://www.typescriptlang.org/play] para correr los ejemplos. 
 
 ## Instalación
 
 1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
-   - [software]
+   - [Node.js][https://nodejs.org/en/]
+   - Un editor de código ([VS Code][https://code.visualstudio.com/] es recomendado)
 
 2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
-3. [Instrucciones específicas del curso].
+3. Corre el comando `npm install` dentro de la carpeta `Unidad_01/Leccion_03_04_05`.
 
 ### Docente
 
-**Nombre del docente**
+**Natalia Corea**
 
-Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/natalia-corea).
 
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
-	
-	
-# Nom final de la formation
-
-Ce dossier Repository est lié au cours [Nom final de la formation][lil-course-url]. Le cours entier est disponible sur [LinkedIn Learning](www.linkedin.com/learning).
-
-![Nom final de la formation][lil-thumbnail-url] 
-
-DESCRIPTION DE LA FORMATION
-
-## Instructions
-
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
-
-## Branches
-
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
-
-## Installation
-
-    Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-    
-    [Liste des logiciels/dépendances utiles à la formation] 
-    
-    Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-    
-    [Instructions spécifiques au cours] 
-
-
-
-### Instructeur
-
-**Nom du formateur** 
-
- Retrouvez [Nom du formateur](https://www.linkedin.com/learning/instructors/) sur LinkedIn Learning.
-
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg	
