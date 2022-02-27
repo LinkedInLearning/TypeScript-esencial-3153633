@@ -16,13 +16,13 @@ Cada carpeta en el directorio raíz corresponde a una unidad del curso y cada un
 
 En el directorio `Unidad_01/Leccion_03_04_05` encontrarás un proyecto con su correspondiente package.json y demás archivos de configuración. Puedes copiar cada index.ts de cada lección a la carpeta `Unidad_01/Leccion_03_04_05/src` para ejecutar el código. 
 
-Puedes utilizar [TypeScript Playground][https://www.typescriptlang.org/play] para correr los ejemplos. 
+También puedes utilizar [TypeScript Playground](https://www.typescriptlang.org/play) para correr los ejemplos. 
 
 ## Instalación
 
 1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
-   - [Node.js][https://nodejs.org/en/]
-   - Un editor de código ([VS Code][https://code.visualstudio.com/] es recomendado)
+   - [Node.js](https://nodejs.org/en/)
+   - Un editor de código ([VS Code](https://code.visualstudio.com/) es recomendado)
 
 2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
 3. Corre el comando `npm install` dentro de la carpeta `Unidad_01/Leccion_03_04_05`.
