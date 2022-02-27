@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        /* Opciones básicas */
+        "target": "es5",                          /* Indica la versión de ECMAScript: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' o 'ESNEXT'. */
+        "module": "commonjs",                     /* Indica el tipo de formato de módulos: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+        // "allowJs": true,                       /* Permite que archivos .js sean compilados. */
+        // "checkJs": true,                       /* Reporta errores en archivos .js. */
+        // "jsx": "preserve",                     /* Indica el formato de código JSX: 'preserve', 'react-native', or 'react'. */
+        "sourceMap": true,                        /* Genera los archivos '.map' correspondientes. */
+        "outDir": "./dist",                         /* Redirecciona los archivos de salida a la carpeta indicada. */
+        "rootDir": "./src",                       /* Especifica la carpeta raíz de los archivos de entrada. Se utiliza para controlar la carpeta de los archivos de salida --outDir. */
+        "removeComments": true,                   /* Comentarios no son incluidos en los archivos compilados. */
+
+        /* Opciones de revisión estricta de tipos */
+        "strict": true,                           /* Activa todas todas las revisiones de tipos estrictas. */
+        "noImplicitAny": true,                    /* Muestra error en expresiones y declaraciones de tipo inferenciado 'any'. */
+        "strictNullChecks": true,                 /* Activa la revisión estricta de valores nulos. */
+        "strictFunctionTypes": true,              /* Activa strict checking of function types. */
+        // "strictBindCallApply": true,           /* Activa el método estricto en los metodos 'bind', 'call', and 'apply' en funciones. */
+        // "strictPropertyInitialization": true,  /* Activa la revisión estricta de la inicialización de propiedades en clases. */
+        "alwaysStrict": true,                     /* Emite "use strict" por cada archivo fuente. */
+    
+        /* Verificaciones adicionales */
+        "noUnusedLocals": true,                /* Reporta errores en variables no utilizadas. */
+        "noUnusedParameters": true,            /* Reporta errores en parámetros no utilizados. */
+        "noImplicitReturns": true,             /* Reporta erroes debido a alguna dirección del código que no devuelve un valor. */
+        "noFallthroughCasesInSwitch": true,    /* Reporta en controles switch cuando un case sin break genera erroes. */
+      },
+    "include": [
+        "src/**/*"
+    ]
+  }

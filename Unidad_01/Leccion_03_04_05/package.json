@@ -1,0 +1,26 @@
+{
+  "name": "typescript-esencial",
+  "version": "1.0.0",
+  "description": "Este proyecto contiene los ejemplos de codigo del curso Typescript Esencial",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlunaty/TypeScript-esencial-3153633.git"
+  },
+  "author": "Natalia Corea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nlunaty/TypeScript-esencial-3153633/issues"
+  },
+  "homepage": "https://github.com/nlunaty/TypeScript-esencial-3153633#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "typescript": "^4.5.5"
+  }
+}
