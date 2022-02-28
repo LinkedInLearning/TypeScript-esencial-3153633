@@ -1,12 +1,12 @@
-# TypeScript Esencial
+# Nombre final del curso
 
-Este es el repositorio del curso de LinkedIn Learning TypeScript Esencial. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
+Este es el repositorio del curso de LinkedIn Learning [nombre del curso]. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![TypeScript Esencial][lil-thumbnail-url] 
+![Nombre completo del curso][lil-thumbnail-url] 
 
-TypeScript es uno de los lenguajes de programación que ha tomado mucha popularidad en los últimos años. Construido sobre JavaScript, agrega funcionalidades a este que nos permiten construir aplicaciones web más seguras y libres de errores y hace que nuestro código sea más claro de leer y entender. Es por esta razón que son cada vez más empresas y proyectos que se mueven a este lenguaje y una herramienta que todo desarrollador web debe conocer.
+Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
-Este curso enseña los conceptos más generales del uso de TypeScript que van desde la definición de tipos de variables y objetos, la inferencia y la anotación literal de tipo hasta temas más complejos como lo son las uniones de tipos, los enums, las interfaces, tipos genéricos y demás. 
+DESCRIPCIÓN DEL CURSO 
 
 ## Instrucciones
 
@@ -29,9 +29,9 @@ También puedes utilizar [TypeScript Playground](https://www.typescriptlang.org/
 
 ### Docente
 
-**Natalia Corea**
+**Nombre del docente**
 
-Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/natalia-corea).
+Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
 
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
