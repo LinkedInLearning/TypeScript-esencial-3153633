@@ -1,12 +1,12 @@
-# Nombre final del curso
+# TypeScript esencial
 
-Este es el repositorio del curso de LinkedIn Learning [nombre del curso]. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
+Este es el repositorio del curso de LinkedIn Learning `[nombre del curso]`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
 ![Nombre completo del curso][lil-thumbnail-url] 
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
-DESCRIPCIÓN DEL CURSO 
+Comienza con los conceptos básicos necesarios para poder escribir código en TypeScript. Durante este contenido formativo, aprenderás desde cero y paso a paso a compilar una aplicación TypeScript, empezando por conocer los tipos básicos, cómo definir tipos avanzados y personalizados como interfaces y enums, cómo definir funciones y clases con tipo y cómo utilizar tipos genéricos, entre otros conocimientos clave. ¿Empezamos a sacar partido a este lenguaje de programación libre y de código abierto? 
 
 ## Instrucciones
 
@@ -29,9 +29,9 @@ También puedes utilizar [TypeScript Playground](https://www.typescriptlang.org/
 
 ### Docente
 
-**Nombre del docente**
+**Natalia Corea**
 
-Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/natalia-corea).
 
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
